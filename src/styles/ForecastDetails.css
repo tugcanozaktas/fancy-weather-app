@@ -1,0 +1,99 @@
+.forecast-details{
+    background-color: rgba(74, 155, 177, 0.298);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    text-align: left;
+    margin: 10px 40px 10px 40px;
+}
+.forecast-details__infowrapper{
+    display: flex;
+    justify-content: space-around;
+}
+.forecast-details__date{
+    font-weight: bold;
+    text-align: center;
+}
+
+.forecast-details__tempbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 80px;
+}
+.forecast-details__windbox{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 80px;
+}
+.forecast-details__precip{
+    border-radius: 5px;
+    width: 80px;
+}
+.forecast-details__tempvisualize{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background: linear-gradient(0deg, rgba(0,255,145,1) 0%, rgba(255,231,0,1) 94%);
+    width: 5px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.forecast-details__temppoint{
+    position: relative;
+    width: 5px;
+    height: 8px;
+    background-color: black;
+    border-radius: 50%;
+}
+.forecast-details__compassarrow{
+    transform-origin: 60% 50%;
+    position: relative;
+    bottom: 45px;
+    transform: rotate(270deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4px;
+    margin-right: 10px;
+}
+.forecast-details__compassarrowhead{
+    top: 3px;
+    content: "";
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    border-right: 2px solid rgb(255, 255, 255);
+    border-top: 2px solid rgb(255, 255, 255);
+    transform: rotate(45deg);
+}
+.forecast-details__compassarrowtail{
+    position: relative;
+    left: 10px;
+    content: "";
+    width: 30px;
+    height: 1px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+}
+.forecast-details__compassarch{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+.forecast-details__windspeed{
+    font-size: 10px;
+}

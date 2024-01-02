@@ -1,0 +1,31 @@
+.forecast-summary{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    border-bottom: 1px solid rgb(58, 58, 58);
+    width: 90%;
+    height: 20px;
+    font-size: 15px;
+}
+.forecast-summary__icon > img{
+    height: 30px;
+    width: auto;
+}
+.forecast-summary__date{
+    font-weight: bold;
+    color: white;
+    width: 60px;
+}
+.forecast-summary__mintemp, .forecast-summary__maxtemp{
+    font-weight: bold;
+    color: white;
+    width: 40px;
+}
+.temp-visualize{
+    background: linear-gradient(90deg, rgba(0,255,145,1) 0%, rgba(255,231,0,1) 94%);
+    width: 50px;
+    height: 5px;
+    border-radius: 5px;
+}

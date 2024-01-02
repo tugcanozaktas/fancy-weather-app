@@ -1,0 +1,13 @@
+.city-info{
+    display: flex;
+    flex-direction: column;
+}
+.city-high-low{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.city-name, .city-temp{
+    font-size: 40px;
+}

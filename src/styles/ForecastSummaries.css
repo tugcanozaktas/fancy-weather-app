@@ -1,0 +1,12 @@
+.forecast-summaries{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      margin-top: 20px;
+      width: 90%;
+      height: 300px;
+      border-radius: 5px;
+      background-color: rgba(74, 155, 177, 0.298);
+}
